@@ -7,8 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    color:black;
     overflow-x: hidden;
     background-image: url(https://i.pinimg.com/originals/b8/1a/a4/b81aa44ba47c8ebb93c4525a96904101.jpg);
     background-size: 100%;
@@ -46,7 +45,7 @@ body {
 .perfil__texto {
     font-size: 20px;
     font-weight: 400;
-    color: var(--cinza-secundario);
+    color: black;
     text-decoration: none;
     margin-top: 0.5em;
 }
@@ -57,11 +56,11 @@ body {
 }
 
 li:hover .perfil__foto {
-    border: 5px solid var(--branco-terciario);
+    border: 5px solid white;
 }
 
 li:hover .perfil__texto {
-    color: var(--branco-terciario);
+    color: white;
     cursor: pointer;
 }
 
