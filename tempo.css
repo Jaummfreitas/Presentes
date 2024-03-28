@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.elo7.com.br/product/zoom/2B3C518/papel-de-parede-adesivo-liso-verde-menta-5m.jpg);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.foto {
+    max-width: 400px; /* Define a largura máxima da imagem */
+    margin-right: 20px; /* Adiciona uma margem à direita para separar a imagem do conteúdo */
+}
+
+.content {
+    flex-grow: 1; /* Permite que o conteúdo ocupe o espaço restante */
+}
+
+/* Estilos adicionais para o conteúdo, como cor de fundo, bordas, etc. */

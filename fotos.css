@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.elo7.com.br/product/zoom/2B3C518/papel-de-parede-adesivo-liso-verde-menta-5m.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px; /* Alterado para max-width */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+.card {
+    width: calc(50% - 10px); /* 50% menos a metade do espaçamento */
+    /* 10px é a metade do espaçamento */
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img img {
+    width: 100%; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
