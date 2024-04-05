@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(https://img.elo7.com.br/product/zoom/2B3C518/papel-de-parede-adesivo-liso-verde-menta-5m.jpg);
+    background-image: url(https://wallpapers.com/images/featured/stardew-background-5nm3af2n23ja2grf.jpg);
     background-size: cover;
 }
 
@@ -15,12 +15,12 @@ body {
 
 h1 {
     color: #333;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 28px;
 }
 .container {
     display: flex;

@@ -10,8 +10,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(https://img.elo7.com.br/product/zoom/2B3C518/papel-de-parede-adesivo-liso-verde-menta-5m.jpg);
+    /* background-image: url(https://img.elo7.com.br/product/zoom/2B3C518/papel-de-parede-adesivo-liso-verde-menta-5m.jpg); */
+    background-image: url(https://wallpapers.com/images/featured/stardew-background-5nm3af2n23ja2grf.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .container {
